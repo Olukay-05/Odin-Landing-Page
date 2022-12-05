@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    background-image: url("./assets/elsa-olofsson-Pm0K9Y3EPUc-unsplash.jpg");
+    background-size:cover;
+}
+
+.nav-container {
+    display: flex;
+    flex: 1;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(210,216,216)
+}
+
+.nav-container img {
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+.nav-links {
+    display: flex;   
+    flex: 1 1 auto;
+    justify-content:space-between;
+    gap: 20em;
+    /* background-color: pink; */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav-links ul li {
+    margin-left: 200px;
+    
+}
+
+.nav-links button {
+    border: grey;
+    height: auto;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(214, 210, 210);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6)
+     
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 70px;
+}
+
+.heros {
+    background-color: pink;
+    border-radius: 20%;
+    
+}
+.heros img {
+   width: 50%;
+   height: auto;
+   justify-content: center;
+    align-items: center;
+   
+}
