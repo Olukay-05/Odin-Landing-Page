@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Montserrat', sans-serif;
+    
 }
 
 header {
@@ -15,12 +17,14 @@ header {
     justify-content:space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgb(210,216,216,0.6)
+    background-color: rgb(210,216,216,0.6);
+   
 }
 
 .nav-container img {
     width: 50%;
     border-radius: 10px;
+    margin-left: 50px;
     
 }
 
@@ -30,13 +34,18 @@ header {
     justify-content:space-between;
     gap: 10em;
     /* background-color: pink; */
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+   
+}
+
+.nav-links li {
+    transition: background-color 1s;
 }
 
 .nav-links li:hover {
-    color: orange
+    color: orange;
 }
 
 .nav-links ul {
@@ -58,9 +67,16 @@ header {
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-    background-color: rgb(214, 210, 210);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6)
+    background-color: rgb(121,205,207);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    margin-right: 50px;
+    transition: background-color 1s;
      
+}
+
+.nav-links button:hover {
+    background-color: rgb(236, 185, 90);
+
 }
 
 
@@ -80,20 +96,39 @@ header {
     /* font-family: "Austin Web","Garamound","Times","Times New Roman",serif; */
     font-family:'Montserrat', sans-serif;
     font-size: 200%;
-    width: 50%
-};
+    width: 50%;
+}
 
-.sign-up {
+.header-container .header-content .sign-up-button {
+    height: 75px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(121,205,207);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    transition: background-color 1s;
+        
+}
+
+
+.header-container .header-content .sign-up-button:hover {
+    background-color: rgb(236, 185, 90);
+
+}
+
+
+/* .sign-up {
     width: 40px;
     border-radius: 50px;
     background-color: brown;
-}
+} */
 
-.heros {
+/* .heros {
 
-    /* border-radius: 20%; */
-    /* position: absolute; */ 
-}
+   
+} */
 
 /* .header-content h2 {
     font-size: larger;
@@ -109,6 +144,7 @@ header {
   
 }
 
+
 main h2 {
     text-align: center;
     font-family:'Montserrat', sans-serif;
@@ -117,7 +153,6 @@ main h2 {
 
 .store-image-container {
     display: flex;
-    /* gap: 1px; */
 }
 
 .store-image-content {
@@ -147,5 +182,55 @@ main h2 {
 .blockquote-container blockquote {
     font-family:'Montserrat', sans-serif;
     font-size: 30px;   
+    text-align: center;
+}
+
+.footer-container {
+    margin-top: 10%;
+    background-color: rgb(253,228,205);
+    margin: 10% 15%;
+    padding: 3%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;   
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-container div button {
+    background-color: pink;
+    position: relative;
+    top: 55px;
+    left: 60px;
+
+
+    height: 75px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(121,205,207);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    transition: background-color 1s;
+        
+}
+
+.footer-container div button:hover {
+    background-color: rgb(236, 185, 90);
+
+}
+
+
+
+
+.copyright-div {
+    background-color: rgb(183,102,75);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
