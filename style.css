@@ -15,7 +15,7 @@ header {
     justify-content:space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgb(210,216,216)
+    background-color: rgb(210,216,216,0.6)
 }
 
 .nav-container img {
@@ -28,10 +28,15 @@ header {
     display: flex;   
     flex: 1 1 auto;
     justify-content:space-between;
-    gap: 20em;
+    gap: 10em;
     /* background-color: pink; */
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    color: orange
 }
 
 .nav-links ul {
@@ -66,15 +71,38 @@ header {
     margin: 70px;
 }
 
-.heros {
-    background-color: pink;
-    border-radius: 20%;
+
+
+.header-content {
+    color: rgb(59,64,56);
+    /* color: rgb(48,34,34); */
     
+    /* font-family: "Austin Web","Garamound","Times","Times New Roman",serif; */
+    font-family:'Montserrat', sans-serif;
+    font-size: 200%;
+    width: 50%
+};
+
+.sign-up {
+    width: 40px;
+    border-radius: 50px;
+    background-color: brown;
 }
+
+.heros {
+    border-radius: 20%;
+    /* position: absolute; */ 
+}
+
+/* .header-content h2 {
+    font-size: larger;
+} */
+
 .heros img {
-   width: 50%;
+   width: 100%;
    height: auto;
    justify-content: center;
     align-items: center;
-   
+  
 }
+
